@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact-us-style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<!--Remove class="moving-volunteer" from Body tag below to take off animation -->
+
+<body class="moving-volunteer">
+    <div class="header">
+        <div class="header-div">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-div2">
+            <ul>
+                <li><i class="fas fa-phone-alt"></i><strong> +2348080000000</strong></li>
+                <li><i class="fas fa-envelope"></i><strong> volunteer.ng@gmail.com</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header2">
+        <div class="branding">
+            <a href="index.html">
+                <img src="https://res.cloudinary.com/ayoalaka/image/upload/v1567535466/logo_erbh1u.png" width="130" height="50" />
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><Strong>Home</a></Strong>
+                </li>
+                <li><a href="entities.php"><Strong>Entities</Strong></a></li>
+                <li><a href="about.html"><Strong>About</Strong></a></li>
+                <li><a href="team.html"><Strong>The Team</Strong></a></li>
+                <li class="auth_button">
+                    <a href="sign-in.html"> <i class="fa fa-user"></i>
+                        <Strong>Sign In | Sign Up</Strong>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Contact Us</h1>
+                <!--<input type=" " placeholder="Reason for Donation" />-->
+                <input type="text" class="fontAwesome" name="Firstname" placeholder="&#xf2c0; Firstname" required>
+                <input type="text" class="fontAwesome" name="Firstname" placeholder="&#xf2c0; Lastname" required>
+                <input type="email" class="fontAwesome" name="emailAddress" placeholder="&#xf0e0;  Email" required/>
+                <textarea rows="4" cols="50" id="form-textarea" type="text" class="fontAwesome" placeholder="&#xf044; Message" required></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+        <!--Signup Message-->
+        <div class="overlay-container">
+            <div class="overlay">
+                <!--SignIn-->
+                <div class="overlay-panel overlay-right">
+                    <h1>Let's get in touch</h1>
+                    <br>
+                    <div class="details">
+                        <p id="big-text"><i class="fas fa-phone-alt"></i><strong> +2348080000000</strong></p>
+                        <br>
+                        <p id="big-text"><i class="fas fa-envelope"></i><strong> volunteer.ng@gmail.com</strong></p>
+                        <br>
+                        <p id="big-text"><i class="fas fa-map-marker-alt"></i><strong> Our Address here...</strong></p>
+                    </div>
+                    <br>
+                    <br>
+                    <div id="follow-us">
+                        <p><strong>Follow us on</strong></p>
+                    </div>
+                    <!--<button class="ghost" id="signUp">Sign Up</button>-->
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="#" class="social"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="social"><i class="fab fa-youtube fa-2x"></i></i></a>
+                        <a href="#" class="social"><i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="contact-us-script.js"></script>
+    </div>
+
+    <script src="contact-us-script.js" async defer></script>
+</body>
+
+</html>
